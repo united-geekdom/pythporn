@@ -1,0 +1,27 @@
+from random import randint
+n1=input('Enter a Noun: ')
+n2=[
+    'burgers',
+    'apple slices',
+    'Bosnians',
+    'black people',
+    'gays',
+    'condoms',
+    'burkas',
+    'bison',
+    'senior citizens',
+    'testicles'
+][randint(0,9)]
+joke=[
+    "they're crusty on the outside and juicy on the inside",
+    "they're less attractive when they're brown",
+    "they're circumcised Croats",
+    "they left their homeland for job opportunities",
+    "they can't resist cylinders",
+    "they're filled to the brim with children",
+    "they're endorsed by the Taliban",
+    "fat white guys drove them to extinction",
+    "they hate millennials",
+    "their best friend is an asshole"
+][randint(0,9)]
+print(f'{n1} are like {n2}: {joke}')
